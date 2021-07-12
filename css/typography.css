@@ -1,0 +1,38 @@
+blockquote{
+    font: 1rem georgia, sarif;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.quote blockquote{
+    quotes: """ """ "'" "'";
+}
+
+blockquote::before{
+    content: open-quote;
+}
+
+blockquote::after{
+    content: close-quote;
+}
+
+p,h1,h2,h4{
+    line-height: 1.5em;
+    text-align: center;
+  }
+
+p{
+    display: inline-block;
+}
+
+ div a:hover{
+    color: #e8491d;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
